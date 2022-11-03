@@ -1,0 +1,44 @@
+/*About me section */
+.px-4 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#About{
+    background-color: lightgray;
+    padding: 20px;
+    width:50%;
+}
+
+#Work{
+    @media (max-width: 575.98px) {767.97}
+}
+
+.list-group-item-2 {
+    width: 50%;
+    
+}
+
+.row{
+padding: 5px ;
+
+}
+.carousel-inner {
+background-color: #dac8bb;
+ /*background-image: url(./images); */
+ border-radius: 10px;
+
+ @media (max-width: 575.98px) {767.97}
+ 
+
+}
+
+/*.container-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px; 
+    margin-top: px;
+    
+}
+/*

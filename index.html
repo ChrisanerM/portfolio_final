@@ -1,82 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>Chrisaner Matthys</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles.css"
-    <script src="https://kit.fontawesome.com/cab7c57e5f.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <script
+      src="https://kit.fontawesome.com/cab7c57e5f.js"
+      crossorigin="anonymous"
+    ></script>
     <!--Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <div class="bg-success p-2 text-dark bg-opacity-50">CHRISANER MATTHYS</div>
-          <a class="navbar-brand" href="#"> 
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Work and Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact me</a>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <div class="bg-success p-2 text-dark bg-opacity-50">
+          CHRISANER MATTHYS
         </div>
-      </nav>
-      
-      <div class="card bg-dark text-white">
-        <!--Background image-->
-        <img src="images/bg_img.jpg" class="card-img" alt="background" width="100%" height="600px">
-        <div class="card-img-overlay text-center">
-            <div class="invisible">...</div>
-            <div class="invisible">...</div>
-            <div class="invisible">...</div>
-            
-        <!--Landing page-->
-            <img src="./images/icon.png">
-            <div class="invisible">...</div>
-          <h5 class="card-title">Welcome to my Portfolio</h5>
-          <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text text-center">Last updated 3 mins ago</p>
-          <button type="button" class="btn btn-success btn-sm">Hire Me</button>
+        <a class="navbar-brand" href="#"> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Work">Work and Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact me</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="invisible">...</div>
-      <div class="invisible">...</div>
-    
-    </body>
-    <script src="https://kit.fontawesome.com/cab7c57e5f.js" crossorigin="anonymous"></script>
-    <!--About-->
-    <div class="col-sm-8 bg-secondary">
-        <h2>About Me</h2>
-        <img src="./images/icon.png" alt="profile">
-        <p>Lorem ipsum dolor sit amet. Eum magni voluptate qui maxime 
-            delectus et error blanditiis sit eaque consequuntur et delectus 
-            nulla hic necessitatibus consequatur ut earum unde. Et autem corrupti 
-            quo velit possimus et explicabo sint et porro incidunt. Ut nihil atque 
-            et sequi quae et quaerat enim!</p>
-    </div>
-    <!--Icons-->
-    
-    <i class="fa-brands fa-square-instagram"></i>
+    </nav>
 
+    <div class="card bg-dark text-white">
+      <!--Background image-->
+      <img
+        src="images/bg_img 1.jpg"
+        class="card-img"
+        alt="background"
+        width="100%"
+        height="600px"
+      />
+      <div class="card-img-overlay text-center">
+        <div class="invisible">...</div>
+        <div class="invisible">...</div>
+
+        <!--Landing page-->
+        <img src="./images/icon.png" />
+        <div class="invisible">...</div>
+        <h5 class="card-title text-dark">Welcome to my Portfolio</h5>
+        <p class="card-text text-dark text-center fst-italic">
+          Here's but a snippet of my life, enjoy!
+        </p>
+        <button type="button" class="btn btn-success btn-sm">Hire Me</button>
+
+        <!--Icons-->
+        <div class="invisible">...</div>
+        <i class="fa-brands fa-linkedin fa-xl fa-beat"></i>
+        <i class="fa-brands fa-google fa-lg fa-beat"></i>
+        <i class="fa-brands fa-square-instagram fa-xl fa-beat"></i>
+      </div>
+    </div>
+    <div class="invisible">...</div>
+    <div class="invisible">...</div>
+  </body>
+
+  <!--About-->
+  <div class="container px-4" id="About">
+    <div class="row align-items-center">
+      <div class="col-sm">
+        <h2 class="text-center">About Me</h2>
+        <img
+          src="./images/icon.png"
+          class="rounded mx-auto d-block"
+          alt="profile"
+        />
+        <p class="text center">
+          My present career aim is to work within an organization where I'm able
+          to contribute to improving systems. The opportunity to learn new
+          skills and engage with individuals where I may broaden my skillset
+          appeals to me. 
+          <p>I perform my duties diligently and consistent and I'm
+          capable to relate and adapt to a wide range of people and situations.
+          I believe there's always room for improvement both personnally and
+          professionally.</p>
+        <p>
+          In my leisure time I enjoy spending time with my siblings,listening to
+          music and reading non-fiction books.
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid px-4" id="Work">
+    <h2 class="text-center">Work and Experience</h2>
+    <div class="col-sm">
+    </ul>
+    <div class="row row -cols-1 d-flex justify-content-between">
+      <div class="col p-3 bg-light text-center">
+        <h5>Work and Experience</h5>
+        <!--List info-->
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">2022</li>
+          <li class="list-group-item-2">Education Assistant
+            <h6>Roles and Responsibilities</h6>
+            <p>Supervising group activities, carrying out administrative duties such as preparing classroom resources. Providing extra support to learners to complete tasks at hand.</p>
+          </li>
+      </div>
+      <div class="col p-3 bg-success text-center">
+        <h5>Education</h5>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">2022</li>
+          <li class="list-group-item-2">Education Assistant
+            <h6>Roles and Responsibilities</h6>
+            <p>Supervising group activities, carrying out administrative duties such as preparing classroom resources. Providing extra support to learners to complete tasks at hand.</p>
+          </li>
+      </div>
+      <div class="col p-3 bg-light text-center">
+        <h5>Skills</h5>
+        <p>
+          Lorem ipsum dolor sit amet. Eum magni voluptate qui maxime delectus et
+          error blanditiis sit eaque consequuntur et delectus nulla hic
+          necessitatibus consequatur ut earum unde. Et autem corrupti quo velit
+          possimus et explicabo sint et porro incidunt. Ut nihil atque
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container px-4" id="Testimonial">
+    <h2 class="text-center">Testimonial</h2>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="mx-auto" style="width: 300px;">
+          <div class="bg-success p-2 text-dark bg-opacity-25">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./images/temm.jpg.jpg" class="img-thumbnail" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="bg-success opacity-75">Abigail Temm</h5>
+            <p class="bg-light">~Always prepared for the day and ensures all tasks are completed to the best of her abiliy.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/alexander.jpg.jpg" class="img-thumbnail" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="bg-success opacity-75">Megan Alexander</h5>
+            <p class="bg-light">~Chrisaner is a very quiet person but very friendly, dedicated and hard worker.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/dreyer.jpg" class="img-thumbnail" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="bg-success opacity-75">Kauthar Dreyer</h5>
+            <p class="bg-light">She's a kind and loving person, always willing to help others.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/mullins.jpg.jpg" class="img-thumbnail" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="bg-success opacity-75">Mellissa Mullins</h5>
+            <p class="bg-light">A well mannered individual and always up for new challenges. She has goals set out and works hard to achieve them.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="" class="img-thumbnail" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class=bg-warning opacity-75>Chipo Saidi</h5>
+            <p class="bg-light">Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!--<div class="container px-4">
+    <footer class="container-footer">
+      <p>&copy; 2022 Chrisaner Matthys 🐞</p>
+      </footer>
+    </div> -->
 
 
 </html>
