@@ -1,3 +1,5 @@
+
+
 /*About me section */
 .px-4 {
     padding-top: 150px;
@@ -22,6 +24,29 @@
 padding: 5px ;
 
 }
+
+/*Styling list */
+.container-fluid{
+    padding: 5px;
+}
+
+.col-19{
+    background-color: tan;
+    
+}
+
+
+
+.list-group{
+    width:100%;
+}
+/*Styling progress-bars*/
+.progress{
+    margin-left: 50px;  
+    margin-right: 60px;
+}
+
+/*Styling carousel*/
 .carousel-inner {
 background-color: #dac8bb;
  /*background-image: url(./images); */
@@ -32,13 +57,26 @@ background-color: #dac8bb;
 
 }
 
-/*.container-footer{
-    background-color: black;
+/*Contact form*/
+.container-21{
+    background-color: lightsalmon;
     color: white;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 5px; 
-    margin-top: px;
+    width: 30%;
+    padding: 4px;
+    border-radius: 10px;
+    margin-left: 980px;
+    margin-right: 250px;
     
 }
-/*
+
+
+
+
+.container-footer{
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px; 
+    margin-top: 200px;   
+}
+
