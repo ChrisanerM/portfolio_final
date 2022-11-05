@@ -1,82 +1,65 @@
-
-
 /*About me section */
 .px-4 {
-    padding-top: 150px;
-    padding-bottom: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
-#About{
-    background-color: lightgray;
-    padding: 20px;
-    width:50%;
-}
-
-#Work{
-    @media (max-width: 575.98px) {767.97}
-}
-
-.list-group-item-2 {
-    width: 50%;
-    
-}
-
-.row{
-padding: 5px ;
-
+#About {
+  background-color: lightgray;
+  padding: 20px;
+  width: 50%;
 }
 
 /*Styling list */
-.container-fluid{
-    padding: 5px;
+.container-fluid {
+  padding: 5px;
 }
 
-.col-19{
-    background-color: tan;
-    
+.list-group-item-2 {
+  width: 50%;
 }
 
+.row {
+  padding: 5px;
+}
 
+.col-19 {
+  background-color: tan;
+}
 
-.list-group{
-    width:100%;
+.list-group {
+  width: 100%;
 }
 /*Styling progress-bars*/
-.progress{
-    margin-left: 50px;  
-    margin-right: 60px;
+.progress {
+  margin-left: 50px;
+  margin-right: 60px;
 }
 
 /*Styling carousel*/
 .carousel-inner {
-background-color: #dac8bb;
- /*background-image: url(./images); */
- border-radius: 10px;
-
- @media (max-width: 575.98px) {767.97}
- 
-
+  background-color: #dac8bb;
+  border-radius: 10px;
 }
 
 /*Contact form*/
-.container-21{
-    background-color: lightsalmon;
-    color: white;
-    width: 30%;
-    padding: 4px;
-    border-radius: 10px;
-    margin-left: 980px;
-    margin-right: 250px;
-    
+.container-21 {
+  background-color: rgb(202, 158, 140);
+  color: lightslategray;
+  width: 30%;
+  padding: 2px;
+  border-radius: 10px;
+  margin-left: 75px;
+  margin-right: 250px;
+  margin-top: 10px;
+}
+.col-12 {
+  margin-top: 15px;
 }
 
-
-
-
-.container-footer{
-    background-color: black;
-    color: white;
-    padding-top: 1px;
-    padding-bottom: 1px; 
-    margin-top: 200px;   
+.container-footer {
+  background-color: black;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-top: 200px;
 }
-
