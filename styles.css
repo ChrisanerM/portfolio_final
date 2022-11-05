@@ -10,6 +10,11 @@
 }
 
 /*Styling list */
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
 .container-fluid {
   padding: 5px;
 }
@@ -45,17 +50,23 @@
 .container-21 {
   background-color: rgb(202, 158, 140);
   color: lightslategray;
-  width: 30%;
-  padding: 2px;
+  width: 40%;
+  padding: 1px;
   border-radius: 10px;
   margin-left: 75px;
   margin-right: 250px;
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn{
+    background-color: blue;
+    color: whitesmoke;
 }
 .col-12 {
   margin-top: 15px;
 }
 
+/*Styling footer */
 .container-footer {
   background-color: black;
   color: white;
